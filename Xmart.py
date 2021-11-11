@@ -25,7 +25,7 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('✨Support', 'https://t.me/Xmarty_Supoort),
+        Button.url('✨Support', 'https://t.me/Xmarty_Supoort'),
         Button.url('📦 Source', 'https://github.com/S780821/MentionAllMemberBot')
       ]
     )

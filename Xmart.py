@@ -21,7 +21,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**I'm MentionAll Bot**, I can mention almost all members in group or channel 👻\nClick **/help** for more information__\n\n Follow [@AnjanaMadu](https://github.com/AnjanaMadu) on Github",
+    "__**I'm MentionAll Bot**, I can mention almost all members in group or channel 👻\nClick **/help** for more information__\n\n Follow [@Xmartperson](https://github.com/S780821) on Github",
     link_preview=False,
     buttons=(
       [
@@ -119,5 +119,5 @@ async def cancel_spam(event):
       pass
     return await event.respond('__Stopped.__')
 
-print(">> BOT STARTED <<")
+print(">> XMART MENTIONBOT STARTED <<")
 client.run_until_disconnected()

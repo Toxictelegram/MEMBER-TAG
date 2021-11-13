@@ -1,5 +1,5 @@
 {
-    "name": "Mention All Member Bot",
+    "name": "Toxic All Member Bot",
     "description": "A simple mention all for telegram.",
     "env": {
         "TOKEN": {

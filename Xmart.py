@@ -25,8 +25,8 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('✨Support', 'https://t.me/Xmarty_Supoort'),
-        Button.url('📦 Source', 'https://github.com/S780821/MentionAllMemberBot')
+        Button.url('✨Support', 'https://t.me/DANGEROUSFIGHTER'),
+        Button.url('📦 Source', 'https://t.me/DANGEROUSFIGHTER')
       ]
     )
   )
@@ -39,8 +39,8 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('✨Support', 'https://t.me/Xmarty_Support'),
-        Button.url('📦 Source', 'https://github.com/S780821/MentionAllMemberBot')
+        Button.url('✨Support', 'https://t.me/DANGEROUSFIGHTER'),
+        Button.url('📦 Source', 'https://t.me/DANGEROUSFIGHTER')
       ]
     )
   )
@@ -119,5 +119,5 @@ async def cancel_spam(event):
       pass
     return await event.respond('__Stopped.__')
 
-print(">> XMART MENTIONBOT STARTED <<")
+print(">> TOXIC MENTIONBOT STARTED <<")
 client.run_until_disconnected()
